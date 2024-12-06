@@ -1,0 +1,138 @@
+/*header*/
+
+/*header {
+	padding: 5px;
+	color: black;
+	
+}
+header h1 {
+	position: relative;
+	top: 0px;
+	left: 10px;
+	font: 80px Georgia
+}
+header img {
+	position: relative;
+	float: left;
+	height: 150px;
+	width: 150px;
+	top: 15px;
+}*/
+
+
+/*body*/
+
+
+body {
+	background: #CDE1FF;
+	padding: 20px 50px;
+}
+
+
+/*nav*/
+
+
+/*nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CDE1FF;
+}
+
+.navigation {
+    float: left;
+}
+
+.navigation a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #FFF9F9;
+}
+
+.active {
+    background-color: #FFF9F9;
+}*/
+
+
+/*section*/
+
+
+section {
+	color: black;
+	background: #7AD9FF;
+	font-size: 20px;
+	font-family: Times, Times New Roman, serif;
+}
+
+section {
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 5%;
+	padding: 2%;
+	width: 95%;
+}
+
+/*.ergo {
+	margin-bottom: 10%;
+}
+
+
+.eva {
+	width: 400px;
+	height: auto;
+}
+
+
+img {
+	width: 50px;
+	height: auto;
+  }*/
+  
+
+/*footer*/
+
+footer {
+	font-size: 20px;
+	background: #7AD9FF;
+}
+
+footer {
+	margin-top: 50px;
+	padding: 2%;
+}
+
+
+/*adaptation*/
+
+
+/*@media screen and (max-width: 1000px) {
+	section {
+		font-size: 250%;
+	}
+	
+	.navigation {
+		font-size: 250%;
+		margin: 0%;
+	}
+	
+	body {
+		padding: 20px;
+		margin: 0%;
+	}
+
+	footer {
+		font-size: 250%;
+		margin-top: 50%;
+	}
+	
+}*/
+
+
+
