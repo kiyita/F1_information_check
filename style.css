@@ -24,7 +24,7 @@ header img {
 
 
 body {
-	background: #CDE1FF;
+	background: #ffd5d5;
 	padding: 20px 50px;
 }
 
@@ -66,7 +66,7 @@ body {
 
 section {
 	color: black;
-	background: #7AD9FF;
+	background: #ff7a7a;
 	font-size: 20px;
 	font-family: Times, Times New Roman, serif;
 }
@@ -78,6 +78,7 @@ section {
 	padding: 2%;
 	width: 95%;
 }
+
 
 /*.ergo {
 	margin-bottom: 10%;
@@ -100,7 +101,7 @@ img {
 
 footer {
 	font-size: 20px;
-	background: #7AD9FF;
+	background: #ff7a7a;
 }
 
 footer {

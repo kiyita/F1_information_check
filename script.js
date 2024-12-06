@@ -28,10 +28,6 @@ fetch('https://api.openf1.org/v1/drivers?session_key=latest')
     for (var i = 0; i < data.length; i++) {
       driverList.push(data[i])
     }
-    //print tous les noms des pilotes avec console log
-    for (var i = 0; i < driverList.length; i++) {
-      console.log(driverList[i].full_name);
-    }
     afficherListeDeroulante();
     afficherImage();
     fillInfos();
@@ -58,19 +54,18 @@ function afficherListeDeroulante() {
 function afficherImage() {
   const existingImage = document.getElementById("infos").querySelector("img");
   if (existingImage) {
-    document.getElementById("infos").removeChild(existingImage);
+    document.getElementById("photo").removeChild(existingImage);
   }
 
   var image = document.createElement("img");
   image.alt = "fuck " + driverList[driverDeroulant.selectedIndex].team_name;
   image.src = driverList[driverDeroulant.selectedIndex].headshot_url;
-  document.getElementById("infos").appendChild(image);
+  document.getElementById("photo").appendChild(image);
 }
 
 function fillInfos() {
-  const infosDiv = document.getElementById("infos");
-  const existingInfo = infosDiv.querySelectorAll("p");
-  existingInfo.forEach(info => infosDiv.removeChild(info));
+  const existingInfo = document.getElementById("infos").querySelectorAll("p");
+  existingInfo.forEach(info => document.getElementById("infos").removeChild(info));
 
   let name = document.createElement("p");
   name.innerHTML = driverList[driverDeroulant.selectedIndex].full_name;
@@ -87,11 +82,11 @@ function fillInfos() {
   let country = document.createElement("p");
   country.innerHTML = getCountryName(driverList[driverDeroulant.selectedIndex].country_code);
 
-  document.getElementById("infos").appendChild(name);
-  document.getElementById("infos").appendChild(number);
-  document.getElementById("infos").appendChild(team);
-  document.getElementById("infos").appendChild(acronym);
-  document.getElementById("infos").appendChild(country);
+  document.getElementById("name").appendChild(name);
+  document.getElementById("number").appendChild(number);
+  document.getElementById("team").appendChild(team);
+  document.getElementById("acronym").appendChild(acronym);
+  document.getElementById("country").appendChild(country);
 }
 
 // Function pour obtenir le nom du pays à partir du code IOC
