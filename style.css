@@ -1,23 +1,18 @@
 /*header*/
 
-/*header {
+header {
 	padding: 5px;
 	color: black;
 	
 }
-header h1 {
-	position: relative;
-	top: 0px;
-	left: 10px;
-	font: 80px Georgia
-}
+
 header img {
 	position: relative;
 	float: left;
 	height: 150px;
 	width: 150px;
 	top: 15px;
-}*/
+}
 
 
 /*body*/
@@ -32,12 +27,13 @@ body {
 /*nav*/
 
 
-/*nav {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #CDE1FF;
+    background-color: #ff7a7a;
+	border-radius: 10px;
 }
 
 .navigation {
@@ -58,7 +54,7 @@ body {
 
 .active {
     background-color: #FFF9F9;
-}*/
+}
 
 
 /*section*/
@@ -77,6 +73,7 @@ section {
 	margin-top: 5%;
 	padding: 2%;
 	width: 95%;
+	border-radius: 10px;
 }
 
 
@@ -88,13 +85,13 @@ section {
 .eva {
 	width: 400px;
 	height: auto;
-}
+}*/
 
 
 img {
-	width: 50px;
+	width: 100px;
 	height: auto;
-  }*/
+  }
   
 
 /*footer*/
