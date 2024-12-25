@@ -100,5 +100,4 @@ function getCountryName(iocCode) {
 }
 
 //faire un carré sur un canevas qui fait des aller retour en haut de la page qui sera remplacé plus tard par une voiture
-
-
+//ajouter sur l'acceuil une radio aléatoire d'un pilote
